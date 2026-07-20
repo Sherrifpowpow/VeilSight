@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 - 2026-07-19
+
+- Fixed cross-extractor compatibility. The 1.0.0 ZIP’s directory entries have zero attributes and omit two parent-directory records.
+- Added canonical forward-slash paths, explicit parent-directory records, and directory attributes to release archives.
+
 ## 1.0.0 - 2026-07-19
 
 - Added live natural and artificial exposure classification with validated DARK, DIM, and BRIGHT boundaries.
